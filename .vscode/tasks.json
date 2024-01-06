@@ -10,7 +10,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}.exe" // Zmieniłem rozszerzenie wynikowego pliku na ".exe" dla Windows, dostosuj to do Twojego systemu operacyjnego
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
